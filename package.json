@@ -9,7 +9,8 @@
     "serve": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js --progress",
     "watch": "webpack --config webpack.dev.js --watch",
-    "version": "webpack --version"
+    "version": "webpack --version",
+    "help": "webpack --help=verbose"
   },
   "keywords": [],
   "author": "",

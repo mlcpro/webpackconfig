@@ -1,2 +1,6 @@
-# liste complète des arguments CLI
-npx webpack --help=verbose
+npm run dev
+npm run serve
+npm run build
+npm run watch
+npm run version
+npm run help
