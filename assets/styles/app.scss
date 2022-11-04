@@ -1,0 +1,7 @@
+$body-color: rgb(255, 0, 0);
+
+body {
+   color: $body-color;
+   background: url('./icon.png');
+   transform: translateX(20px);
+}
