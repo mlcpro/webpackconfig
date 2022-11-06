@@ -8,6 +8,5 @@ Getting Started
 cd destination-folder
 git clone https://github.com/mlcpro/webpackconfig.git project-name
 npm install
-npm run dev
 npm run serve
 ```
