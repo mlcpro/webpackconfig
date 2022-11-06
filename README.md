@@ -1,4 +1,4 @@
-Webpack Config 5
+Webpack 5 Config
 -------
 Professional configuration of assets for any new project
 

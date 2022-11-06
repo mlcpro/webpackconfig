@@ -1,7 +1,19 @@
-$body-color: rgb(255, 0, 0);
+$body-color: rgb(0, 242, 255);
 
-body {
+*, *::before, *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
    color: $body-color;
+}
+
+#icon {
+   height: 100px;
+   width: 100px;
    background: url('./icon.png');
-   transform: translateX(20px);
+   background-repeat: no-repeat;
+   background-size: contain;
 }

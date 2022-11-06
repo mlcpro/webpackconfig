@@ -11,7 +11,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Webpack 5 Config',
       filename: 'index.html',
       template: 'public/template.html'
     })
