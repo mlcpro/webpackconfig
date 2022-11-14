@@ -1,7 +1,8 @@
 {
-  "name": "@mlcpro/webpack5config",
+  "name": "webpack5config",
   "version": "1.0.0",
   "description": "Initializes a webpack 5 configuration for any new project",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config webpack.dev.js",
