@@ -1,11 +1,20 @@
-@font-face {
-   font-family: 'MyFont';
-   src: url('./NotoSansMendeKikakui-Regular.ttf') format('truetype');
-   font-weight: 600;
-   font-style: normal;
-}
+// Example of importing a third-party library (from node_modules) :
+// @import url("~boxicons");
 
-$body-color: rgb(0, 242, 255);
+// Example of importing a local font :
+// @font-face {
+//    font-family: 'MyFont';
+//    src: url('./NotoSansMendeKikakui-Regular.ttf') format('truetype');
+//    font-weight: 600;
+//    font-style: normal;
+// }
+// Then used :
+// font-family: 'MyFont';
+
+// Example of using a local image :
+// background: url('./icon.png');
+
+$h1-color: rgb(0, 242, 255);
 
 *, *::before, *::after {
    box-sizing: border-box;
@@ -14,14 +23,5 @@ $body-color: rgb(0, 242, 255);
 }
 
 h1 {
-  color: $body-color;
-  font-family: 'MyFont';
-}
-
-#icon {
-   height: 100px;
-   width: 100px;
-   background: url('./icon.png');
-   background-repeat: no-repeat;
-   background-size: contain;
+  color: $h1-color;
 }

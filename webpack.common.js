@@ -36,7 +36,7 @@ module.exports = {
             }
         },
         {
-          test: /\.scss$/i,
+          test: /\.(sa|sc|c)ss$/i,
           use: [
             // Extrait le css dans des fichiers séparé
             MiniCssExtractPlugin.loader,
