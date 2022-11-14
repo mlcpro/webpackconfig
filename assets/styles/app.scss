@@ -1,7 +1,7 @@
 // Example of importing a third-party library (from node_modules) :
 // @import url("~boxicons");
 
-// Example of importing a local font :
+// Example of importing a font :
 // @font-face {
 //    font-family: 'MyFont';
 //    src: url('./NotoSansMendeKikakui-Regular.ttf') format('truetype');
@@ -11,7 +11,7 @@
 // Then used :
 // font-family: 'MyFont';
 
-// Example of using a local image :
+// Example of using an image :
 // background: url('./icon.png');
 
 $h1-color: rgb(0, 242, 255);
