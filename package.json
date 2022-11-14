@@ -1,8 +1,7 @@
 {
-  "name": "webpackconfig",
+  "name": "@mlcpro/webpack5config",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "description": "Initializes a webpack 5 configuration for any new project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config webpack.dev.js",
@@ -12,8 +11,15 @@
     "version": "webpack --version",
     "help": "webpack --help=verbose"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webpack",
+    "config",
+    "css",
+    "scss",
+    "sass",
+    "assets"
+  ],
+  "author": "Mlc (https://github.com/mlcpro)",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.19.6",
